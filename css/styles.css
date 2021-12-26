@@ -1,0 +1,241 @@
+:root {
+  --item-point: none;
+  --title-color: #212121;
+  --decoration-none: none;
+  --link-accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: var(--item-point);
+}
+
+.link {
+  text-decoration: var(--decoration-none);
+  color: var(--title-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--link-accent-color);
+}
+.current {
+  color: var(--link-accent-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--link-accent-color);
+}
+
+/*  ---------      HEADER   ---------    */
+.logo span {
+  text-decoration: var(--decoration-none);
+  font-family: Raleway;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: var(--decoration-none);
+}
+
+.logo {
+  text-decoration: var(--decoration-none);
+  font-family: Raleway;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts:hover,
+.nav-contacts:focus {
+  color: var(--link-accent-color);
+}
+
+.header-contacts {
+  text-decoration: var(--decoration-none);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* ------------HERO---------------------  */
+.hero {
+  background-color: #2f303a;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.butoon-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+
+.butoon-hero:hover {
+  background: #188ce8;
+}
+
+/* ---------------information_about_the_company------------------------ */
+.information-titel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.information-after-titel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ----------------what_are_we_doing--------------- */
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+/* ------------------our_team----------------- */
+.our-team {
+  background-color: #e5e5e5;
+}
+
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-after-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ------------------portfolio--------------------- */
+
+.button-filtres {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  border: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.button-filtres:hover,
+.button-filtres:focus {
+  background: #2196f3;
+}
+
+.button-filtres:hover,
+.button-filtres:focus {
+  color: #ffffff;
+}
+
+.portfolio-link {
+  text-decoration: var(--decoration-none);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.project-after-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ---------------------footer------------------ */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer-logo span {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-item-map {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
