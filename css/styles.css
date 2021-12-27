@@ -15,11 +15,11 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
-  margin: 0px;
+p {
+  margin: 0;
 }
 ul {
+  margin: 0;
   padding-left: 0;
 }
 
@@ -28,7 +28,7 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -55,7 +55,24 @@ li {
   color: var(--link-accent-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /*  ---------      HEADER   ---------    */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo span {
   text-decoration: var(--decoration-none);
@@ -104,6 +121,8 @@ li {
 
 /* ------------HERO---------------------  */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
 
@@ -131,7 +150,13 @@ h1 {
 }
 
 /* ---------------information_about_the_company------------------------ */
+.information {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .information-titel {
+  margin-bottom: 10px;
+  margin-right: 30px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -149,6 +174,9 @@ h1 {
 }
 
 /* ----------------what_are_we_doing--------------- */
+.services {
+  padding-bottom: 94px;
+}
 .work {
   font-weight: 700;
   font-size: 36px;
@@ -159,10 +187,13 @@ h1 {
 
 /* ------------------our_team----------------- */
 .our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #e5e5e5;
 }
 
 .team {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -187,6 +218,10 @@ h1 {
 }
 
 /* ------------------portfolio--------------------- */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .button-filtres {
   font-weight: 500;
@@ -230,6 +265,8 @@ h1 {
 }
 /* ---------------------footer------------------ */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
