@@ -76,7 +76,7 @@ li {
 
 .logo span {
   text-decoration: var(--decoration-none);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700px;
   font-size: 26px;
   line-height: 1.19;
@@ -97,12 +97,15 @@ li {
 }
 
 .nav-list {
-  display: inline-block;
-  display: inline-flex;
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.nav-list > .nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-contacts:hover,
@@ -117,6 +120,13 @@ li {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.nav-items {
+  display: inline-flex;
+}
+
+.nav-contacts > .nav-items:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* ------------HERO---------------------  */
