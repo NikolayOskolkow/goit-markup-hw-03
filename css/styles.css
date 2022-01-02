@@ -96,8 +96,13 @@ li {
   color: #2196f3;
 }
 
+.header-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .nav-list {
-  display: flex;
+  display: inline-flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -127,6 +132,11 @@ li {
 
 .nav-contacts > .nav-items:not(:last-child) {
   margin-right: 50px;
+}
+
+.header-container {
+  align-items: center;
+  display: flex;
 }
 
 /* ------------HERO---------------------  */
