@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -20,20 +23,20 @@
     <!-- header -->
     <header class="header">
         <div class="container header-container">
-        <nav>
+        <nav class="nav">
             <a class="link logo" lang="en" href="./index.html">Web<span>Studio</span></a>
-            <div class="nav-container-list">
             <ul class="nav-list">
                 <li class="item nav-item"><a class="link header-link current" href="./index.html">Студия</a></li>
                 <li class="item nav-item"><a class="link header-link" href="./portfolio.html">Портфолио</a></li>
                 <li class="item nav-item"><a class="link header-link" href="">Контакты</a></li>
             </ul>
-            </div>
         </nav>
+        <div class="header-contacts">
         <ul class="nav-contacts">
-            <li class="nav-items item header-mail"><a class="header-contacts link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="nav-items header-tel"><a class="header-contacts link-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="contacts-items item header-mail"><a class="header-contacts link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-items header-tel"><a class="header-contacts link-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
         </div>
     </header>
     <!-- main -->
@@ -47,7 +50,7 @@
         </section>
         <!-- information_about_the_company -->
         <section class="information">
-            <div class="container">
+            <div class="container information-container">
             <h2 class="visually-hidden">О нас</h2>
             <ul class="information-list">
                 <li class="list information-item">
