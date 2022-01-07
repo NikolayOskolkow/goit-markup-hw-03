@@ -3,10 +3,11 @@
   --title-color: #212121;
   --decoration-none: none;
   --link-accent-color: #2196f3;
+  --background-color-team: #f5f4fa;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "sans-serif";
 }
 
 h1,
@@ -131,10 +132,13 @@ li {
   color: var(--link-accent-color);
 }
 
-.header-contacts {
+.nav-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: auto;
+}
+
+.header-contacts {
   text-decoration: var(--decoration-none);
   font-weight: 500;
   font-size: 14px;
@@ -159,6 +163,9 @@ li {
 }
 
 h1 {
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   text-align: center;
   font-weight: 900;
@@ -251,7 +258,7 @@ h1 {
 .our-team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #e5e5e5;
+  background-color: var(--background-color-team);
 }
 
 .team {
@@ -278,15 +285,12 @@ h1 {
   margin-right: 30px;
 }
 
-.team-list img {
-  margin-bottom: 30px;
-}
-
 .team-name {
-  padding: 0 20px;
+  padding: 30px 20px;
 }
 
 .team-title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -330,7 +334,7 @@ h1 {
   color: #212121;
   cursor: pointer;
   border: none;
-  background: #f5f4fa;
+  background: var(--background-color-team);
   border-radius: 4px;
 }
 
@@ -367,10 +371,9 @@ h1 {
 }
 
 .rpoject-text {
-  padding: 20px;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
-  width: 370px;
 }
 
 .portfolio-link {
@@ -402,7 +405,7 @@ h1 {
 .footer-logo {
   display: block;
   margin-bottom: 20px;
-  font-family: Raleway;
+  font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -411,7 +414,7 @@ h1 {
 }
 
 .footer-logo span {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
